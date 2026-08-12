@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio tecnico di Matteo Babetto — sviluppo prodotto, prototipazione, meccatronica, sistemi embedded e integrazione UAV." />
+  <title>Matteo Babetto — Product Development & Prototyping</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Torna in alto">
+      <span class="brand-mark">MB</span>
+      <span class="brand-name">MATTEO BABETTO</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#rd">R&amp;D</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-kicker mono">PRODUCT DEVELOPMENT / PROTOTYPING / MECHATRONICS</div>
+
+      <h1>
+        I turn technical problems into
+        <span>working systems.</span>
+      </h1>
+
+      <p class="hero-copy">
+        Analisi di fattibilità, progettazione e prototipazione di prodotti,
+        piccoli sistemi meccatronici, dispositivi embedded e integrazioni UAV.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">View selected projects</a>
+        <a class="button ghost" href="#contact">Get in touch</a>
+      </div>
+
+      <div class="capabilities">
+        <span>Product Development</span>
+        <span>Mechanical Design</span>
+        <span>Embedded Systems</span>
+        <span>UAV Integration</span>
+        <span>Rapid Prototyping</span>
+      </div>
+    </section>
+
+    <section class="section intro-grid" id="about">
+      <div>
+        <p class="eyebrow mono">01 / APPROACH</p>
+        <h2>From feasibility to prototype.</h2>
+      </div>
+
+      <div class="intro-copy">
+        <p>
+          Lavoro bene dove c'è da capire <strong>come rendere realizzabile un'idea</strong>:
+          definizione dell'architettura, sviluppo meccanico ed elettronico,
+          integrazione dei componenti e costruzione del prototipo.
+        </p>
+        <p>
+          Il focus è su sistemi compatti e concreti, spesso a cavallo tra
+          meccanica, elettronica, comunicazioni e piattaforme UAV.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow mono">02 / SELECTED PROJECTS</p>
+          <h2>Selected work.</h2>
+        </div>
+        <p class="section-note">Una selezione di sistemi e prodotti sviluppati o seguiti.</p>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card project-card--wide">
+          <div class="project-visual visual-grid">
+            <div class="diagram-node n1">PU</div>
+            <div class="diagram-node n2">AIR</div>
+            <div class="diagram-node n3">BASE</div>
+            <div class="diagram-line l1"></div>
+            <div class="diagram-line l2"></div>
+            <span class="visual-label mono">INFRASTRUCTURE-INDEPENDENT NETWORK</span>
+          </div>
+          <div class="project-content">
+            <div class="project-index mono">P.01</div>
+            <h3>Infrastructure-Independent Operator Tracking &amp; Communication System</h3>
+            <p>
+              Sistema autonomo di comunicazione bidirezionale e tracking operatori,
+              progettato per funzionare senza dipendere da Internet o rete cellulare.
+            </p>
+            <div class="tags">
+              <span>LoRa</span><span>GNSS</span><span>Embedded</span><span>System Architecture</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual control-visual">
+            <div class="remote-body">
+              <div class="stick"></div>
+              <div class="stick"></div>
+              <div class="custom-panel">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <span class="visual-label mono">CUSTOM PAYLOAD CONTROL</span>
+          </div>
+          <div class="project-content">
+            <div class="project-index mono">P.02</div>
+            <h3>Long-Range UAV Payload Control Interface</h3>
+            <p>
+              Pulsantiera custom aggiuntiva per radiocomando DJI destinata al controllo
+              remoto di payload e funzioni ausiliarie a lunga distanza.
+            </p>
+            <div class="tags">
+              <span>UAV</span><span>Payload Control</span><span>HMI</span><span>Embedded</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual buoy-visual">
+            <div class="waterline"></div>
+            <div class="buoy">
+              <div class="antenna"></div>
+              <div class="buoy-top"></div>
+              <div class="buoy-bottom"></div>
+            </div>
+            <span class="visual-label mono">AUTONOMOUS / REMOTE / MARINE</span>
+          </div>
+          <div class="project-content">
+            <div class="project-index mono">P.03</div>
+            <h3>Autonomous Environmental Monitoring Buoy</h3>
+            <p>
+              Boa energeticamente autonoma per monitoraggio ambientale remoto,
+              acquisizione dati e comunicazione dei parametri raccolti.
+            </p>
+            <div class="tags">
+              <span>Energy</span><span>Sensors</span><span>Marine</span><span>Embedded</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual filter-visual">
+            <div class="filter-shell">
+              <div class="sleeve"></div><div class="sleeve"></div><div class="sleeve"></div>
+              <div class="sleeve"></div><div class="sleeve"></div><div class="sleeve"></div>
+            </div>
+            <span class="visual-label mono">SLEEVE-TYPE FILTRATION</span>
+          </div>
+          <div class="project-content">
+            <div class="project-index mono">P.04</div>
+            <h3>Industrial Sleeve-Type Self-Cleaning Filter</h3>
+            <p>
+              Sistema industriale di filtrazione a maniche con ciclo automatico
+              di autopulizia e sviluppo dell'architettura meccanica.
+            </p>
+            <div class="tags">
+              <span>Mechanical Design</span><span>Pneumatics</span><span>Automation</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card project-card--wide">
+          <div class="project-visual payload-visual">
+            <div class="drone">
+              <span class="arm a1"></span><span class="arm a2"></span>
+              <span class="arm a3"></span><span class="arm a4"></span>
+              <span class="rotor r1"></span><span class="rotor r2"></span>
+              <span class="rotor r3"></span><span class="rotor r4"></span>
+              <span class="drone-core"></span>
+              <span class="payload"></span>
+            </div>
+            <span class="visual-label mono">CUSTOM UAV INTEGRATION</span>
+          </div>
+          <div class="project-content">
+            <div class="project-index mono">P.05</div>
+            <h3>Drone Payload &amp; Integration</h3>
+            <p>
+              Progettazione e integrazione di payload, elettronica e dispositivi custom
+              per piattaforme UAV, dal vincolo operativo all'installazione sul velivolo.
+            </p>
+            <div class="tags">
+              <span>UAV</span><span>Payload Integration</span><span>Embedded</span><span>Mechanical</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual propeller-visual">
+            <div class="hub"></div>
+            <div class="blade b1"></div>
+            <div class="blade b2"></div>
+            <span class="pitch-arrow">↻</span>
+            <span class="visual-label mono">PASSIVE VARIABLE PITCH</span>
+          </div>
+          <div class="project-content">
+            <div class="project-index mono">P.06</div>
+            <h3>Passive Self-Adjusting Variable-Pitch UAV Propeller</h3>
+            <p>
+              Concept di elica a passo variabile con regolazione passiva automatica
+              in funzione delle condizioni operative.
+            </p>
+            <div class="tags">
+              <span>Aeromechanics</span><span>UAV</span><span>Concept</span><span>Mechanisms</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual cargo-visual">
+            <div class="mini-drone">✣</div>
+            <div class="cable"></div>
+            <div class="cargo"></div>
+            <span class="visual-label mono">RETRIEVAL / TRANSPORT</span>
+          </div>
+          <div class="project-content">
+            <div class="project-index mono">P.07</div>
+            <h3>Object Retrieval &amp; Transport UAV</h3>
+            <p>
+              Drone dedicato alla raccolta, movimentazione e trasporto di oggetti
+              mediante sistema di presa progettato ad hoc.
+            </p>
+            <div class="tags">
+              <span>UAV</span><span>Mechanisms</span><span>Prototyping</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual printer-visual">
+            <div class="printer-frame">
+              <div class="gantry"></div>
+              <div class="head h1"></div>
+              <div class="head h2"></div>
+              <div class="bed"></div>
+              <div class="part"></div>
+            </div>
+            <span class="visual-label mono">DUAL EXTRUSION / HEATED CHAMBER</span>
+          </div>
+          <div class="project-content">
+            <div class="project-index mono">P.08</div>
+            <h3>Dual-Extrusion Heated-Chamber 3D Printer</h3>
+            <p>
+              Stampante 3D custom a doppio ugello, camera riscaldata e sistema
+              automatico di livellamento del piano.
+            </p>
+            <div class="tags">
+              <span>Mechatronics</span><span>Motion Control</span><span>Additive Manufacturing</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual hinge-visual">
+            <div class="temple"></div>
+            <div class="frame"></div>
+            <div class="hinge-core"></div>
+            <div class="torque-ring"></div>
+            <span class="visual-label mono">VARIABLE-FRICTION HINGE</span>
+          </div>
+          <div class="project-content">
+            <div class="project-index mono">P.09</div>
+            <h3>Variable-Friction Eyewear Hinge</h3>
+            <p>
+              Cerniera custom per occhiali con soluzione meccanica dedicata
+              alla gestione della coppia e della resistenza all'apertura.
+            </p>
+            <div class="tags">
+              <span>Precision Mechanics</span><span>Mechanism Design</span><span>Product Development</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section rd-section" id="rd">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow mono">03 / R&amp;D CONCEPTS</p>
+          <h2>In development.</h2>
+        </div>
+        <p class="section-note">Concept e sistemi sperimentali attualmente in sviluppo.</p>
+      </div>
+
+      <div class="rd-grid">
+        <article class="rd-card">
+          <div class="status mono"><span></span> IN DEVELOPMENT</div>
+          <h3>Active Mechanical Vibration Cancellation System</h3>
+          <p>
+            Sistema attivo per ridurre le vibrazioni trasmesse a dispositivi sensibili,
+            avionica, centraline di volo e strumentazione.
+          </p>
+          <div class="tags">
+            <span>Vibration Control</span><span>Mechatronics</span><span>UAV</span><span>R&amp;D</span>
+          </div>
+        </article>
+
+        <article class="rd-card">
+          <div class="status mono"><span></span> IN DEVELOPMENT</div>
+          <h3>Hybrid Jet Propulsion System for UAVs</h3>
+          <p>
+            Sviluppo concettuale e sperimentale di un sistema propulsivo ibrido a getto
+            destinato a piattaforme UAV.
+          </p>
+          <div class="tags">
+            <span>Propulsion</span><span>UAV</span><span>Experimental R&amp;D</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow mono">04 / CONTACT</p>
+      <h2>Have a technical problem<br>worth solving?</h2>
+      <p>
+        Sono disponibile per sviluppo prodotto, prototipazione, piccoli sistemi
+        meccatronici e integrazione di dispositivi custom su piattaforme UAV.
+      </p>
+
+      <div class="contact-actions">
+        <!-- Sostituisci l'indirizzo email qui sotto -->
+        <a class="button primary" href="mailto:mb3dservice@gmail.com">Email me</a>
+
+        <!-- Sostituisci l'URL LinkedIn -->
+        <a class="button ghost" href="https://www.linkedin.com/in/matteo-babetto/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Matteo Babetto</span>
+    <span class="mono">DESIGNED FOR REAL-WORLD SYSTEMS</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
