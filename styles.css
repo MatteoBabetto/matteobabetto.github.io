@@ -242,10 +242,20 @@ h2 { font-size: clamp(40px, 5vw, 72px); line-height: 1; letter-spacing: -.05em; 
 }
 
 
-/* === v8: una sola foto per progetto, tutte con stessa proporzione === */
+/* === v9: nuove immagini uniformi 1586x992 === */
+.project-entry {
+  grid-template-columns: minmax(340px, 47%) minmax(0, 53%);
+  align-items: center;
+}
 .entry-media {
-  aspect-ratio: 16 / 10;
+  width: 100%;
   min-height: 0 !important;
+  aspect-ratio: 1586 / 992;
+  align-self: center;
+  overflow: hidden;
+}
+.entry-media.single {
+  background: #eef0f1;
 }
 .entry-media.single img {
   width: 100%;
@@ -254,14 +264,15 @@ h2 { font-size: clamp(40px, 5vw, 72px); line-height: 1; letter-spacing: -.05em; 
   object-fit: cover;
   object-position: center center;
 }
-.entry-media.gallery,
-.entry-media.gallery.two-up,
-.entry-media.gallery.three-up {
-  display: block;
-  padding: 0;
+.entry-media.css-visual {
+  min-height: 0 !important;
+  aspect-ratio: 1586 / 992;
+}
+.entry-body {
+  min-height: 100%;
+  justify-content: center;
 }
 @media (max-width: 900px) {
-  .entry-media {
-    aspect-ratio: 16 / 10;
-  }
+  .project-entry { grid-template-columns: 1fr; }
+  .entry-media, .entry-media.css-visual { aspect-ratio: 1586 / 992; }
 }
