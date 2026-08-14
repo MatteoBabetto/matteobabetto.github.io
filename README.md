@@ -1,9 +1,9 @@
-# Matteo Babetto — Technical Portfolio
+# Matteo Babetto — Portfolio tecnico
 
-Personal portfolio focused on **product development, mechatronic systems, UAV integration and prototyping**.
+Portfolio personale dedicato a **sviluppo prodotto, sistemi meccatronici, integrazione UAV e prototipazione**.
 
-The site collects a selection of projects spanning mechanical design, embedded systems, communications, additive manufacturing and UAV-related development.
+Raccoglie una selezione di progetti tra progettazione meccanica, sistemi embedded, comunicazioni, additive manufacturing e sviluppo di sistemi UAV.
 
-## Live site
+## Sito
 
 **[matteobabetto.github.io](https://matteobabetto.github.io)**

@@ -172,3 +172,52 @@ h2 { font-size: clamp(40px, 5vw, 72px); line-height: 1; letter-spacing: -.05em; 
   .project-visual, .project-card--wide .project-visual { min-height: 270px; }
   .project-content, .project-card--wide .project-content { padding-left: 22px; padding-right: 22px; }
 }
+
+
+/* Fix rendering immagini: le immagini riempiono realmente la card */
+.image-visual {
+  position: relative;
+  min-height: 320px;
+  background: #111315;
+}
+.image-visual > .project-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.project-card--wide .image-visual {
+  min-height: 430px;
+}
+.tall-image > .project-image {
+  object-position: center 30%;
+}
+.gallery-visual {
+  position: relative;
+  min-height: 430px;
+  padding: 12px;
+}
+.project-gallery.three-up {
+  width: 100%;
+  min-height: 405px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 10px;
+}
+.project-gallery.three-up > .project-image {
+  position: static;
+  width: 100%;
+  height: 405px;
+  min-height: 0;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--line);
+}
+@media (max-width: 860px) {
+  .project-gallery.three-up { grid-template-columns: 1fr; min-height: auto; }
+  .project-gallery.three-up > .project-image { height: 220px; }
+  .gallery-visual { min-height: auto; }
+}
