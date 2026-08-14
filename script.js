@@ -1,7 +1,7 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const items = document.querySelectorAll(
-  ".project-card, .rd-card, .intro-grid, .contact-section"
+  ".project-card, .intro-grid, .contact-section"
 );
 
 const observer = new IntersectionObserver(
