@@ -12,8 +12,8 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="styles.css?v=6" rel="stylesheet">
-</link></head>
+<link href="styles.css?v=6" rel="stylesheet"/>
+</head>
 <body>
 <header class="site-header">
 <a aria-label="Torna in alto" class="brand" href="#top">
@@ -31,18 +31,20 @@
 <section class="hero section">
 <div class="hero-kicker mono">CONSULENZA TECNICA / SVILUPPO PRODOTTO / INTEGRAZIONE</div>
 <h1>Sviluppo multidisciplinare di <span>prodotti e sistemi.</span></h1>
-<p class="hero-copy">Affianco aziende e team tecnici nello sviluppo di soluzioni che richiedono di integrare meccanica, elettronica, sistemi embedded, comunicazioni e vincoli operativi, dalla fattibilità alla verifica del prototipo.</p>
+<p class="hero-copy">Sviluppo sistemi e dispositivi custom ad alta integrazione, dove meccanica, elettronica, embedded e comunicazioni devono essere progettati insieme.</p>
 <div class="hero-actions">
 <a class="button primary" href="#projects">Progetti</a>
 <a class="button ghost" href="#contact">Contatti</a>
 </div>
 <div class="capabilities">
+<!--
 <span>Capire</span>
 <span>Costruire</span>
 <span>Stressare</span>
 <span>Fattibilità tecnica</span>
 <span>Integrazione multidisciplinare</span>
-<span>Verifica sperimentale</span>
+<span>Verifica sperimentale</span>  
+-->
 </div>
 </section>
 <section class="section intro-grid" id="about">
@@ -61,7 +63,7 @@
 <p class="eyebrow mono">02 / PROGETTI SELEZIONATI</p>
 <h2>Progetti.</h2>
 </div>
-<p class="section-note">Una selezione di progetti sviluppati tra meccanica, elettronica, sistemi embedded, comunicazioni, automazione e piattaforme UAV.</p>
+<p class="section-note">Casi di sviluppo raccontati attraverso problema, vincoli, sviluppo e risultato. Salvo dove indicato, ho seguito direttamente tutte le principali fasi tecniche: definizione, progettazione, integrazione e test.</p>
 </div>
 <div class="project-list">
 <article class="project-entry reveal">
@@ -69,7 +71,7 @@
 <div class="entry-body">
 <div class="project-index mono">P.01</div>
 <h3>Sistema di comunicazione bidirezionale e tracciamento operatori</h3>
-<p>Sistema di comunicazione bidirezionale e localizzazione sviluppato per operare senza dipendere da Internet, rete cellulare o infrastrutture di telecomunicazione disponibili sul territorio.</p>
+<p><strong>Problema.</strong> Assenza di copertura Internet e necessità di mantenere comunicazioni d’emergenza tra operatori e sala di controllo, con localizzazione precisa e visibilità dell’effettiva copertura radio.<br/><strong>Contesto / vincoli.</strong> Operazioni di ricerca e soccorso in ambiente alpino, basse temperature, grandi distanze, molti operatori simultanei e missioni prolungate.<br/><strong>Sviluppo.</strong> Definizione dell’architettura LoRa in funzione di volume dati, portata e affidabilità; sviluppo di elettronica, firmware, infrastruttura di comunicazione, meccanica e gestione termica delle stazioni portatili. Le valigie operative sono state concepite come sale di controllo trasportabili.<br/><strong>Risultato.</strong> Dispositivi impermeabili con tracciamento in tempo reale degli operatori, comunicazione bidirezionale, autonomia prolungata e portata radio nell’ordine delle decine di chilometri, estendibile mediante nodo aereo su drone.</p>
 <div class="project-note mono">* immagini alterate per riservatezza del prodotto</div>
 <div class="tags"><span>LoRa</span><span>GNSS</span><span>Embedded</span><span>Integrazione di sistema</span></div>
 </div>
@@ -82,17 +84,17 @@
 <div class="entry-body">
 <div class="project-index mono">P.02</div>
 <h3>Filtro industriale autopulente a maniche</h3>
-<p>Sistema industriale di filtrazione autopulente a maniche sviluppato dall’architettura generale fino alla definizione dei principali componenti costruttivi e funzionali.</p>
+<p><strong>Problema.</strong> Ridurre complessità di manutenzione, ingombri e difficoltà di trasporto tipiche dei filtri industriali della categoria, mantenendo il prodotto competitivo anche sul piano economico.<br/><strong>Contesto / vincoli.</strong> Ingombri compatibili con container e rimorchi standard, manutenzione sicura ed ergonomica, facilità di montaggio e accessibilità dei componenti.<br/><strong>Sviluppo.</strong> Dimensionamento dei componenti, progettazione di lamiere, assiemi e sottoassiemi, definizione dei programmi di piega e delle sequenze di assemblaggio, con sviluppo e fornitura di ugelli custom per la pulizia delle maniche.<br/><strong>Risultato.</strong> Filtro compatto e trasportabile da montato, manutenzionabile da terra senza ricorrere a scale, con minore necessità di intervento e un costo mantenuto nella fascia di mercato della categoria.</p>
 <div class="project-note mono">* immagine alterata per riservatezza del prodotto</div>
-<div class="tags"><span>Progettazione meccanica</span><span>Filtrazione industriale</span><span>Sviluppo prodotto</span></div>
+<div class="tags"><span>Progettazione meccanica</span><span>Filtrazione industriale</span><span>Design for Assembly</span></div>
 </div>
 </article>
 <article class="project-entry reveal">
-<div class="entry-media single"><img alt="Bracciale termico attivo indossabile" src="assets/bracciale-termico-1.png"/><span class="visual-label mono">CONTROLLO TERMICO INDOSSABILE</span></div>
+<div class="entry-media single"><img alt="Bracciale termico attivo indossabile" src="assets/bracciale-termico-1.png"/><span class="visual-label mono">CONTROLLO TERMICO ATTIVO / WEARABLE</span></div>
 <div class="entry-body">
 <div class="project-index mono">P.03</div>
-<h3>Bracciale termico attivo indossabile</h3>
-<p>Dispositivo indossabile per controllo termico localizzato, sviluppato integrando gestione termica, elettronica, ventilazione, alimentazione ed ergonomia in un volume compatto.</p>
+<h3>Dispositivo indossabile di controllo termico attivo</h3>
+<p><strong>Problema.</strong> Superare la capacità di scambio termico limitata dei dispositivi compatti per il comfort personale, tipicamente nell’ordine di pochi watt, per ottenere un effetto termico realmente percepibile.<br/><strong>Contesto / vincoli.</strong> Ergonomia al polso, sudore, fisiologia della percezione termica, vasocostrizione, gestione di flussi termici elevati in poco volume e vincoli della produzione additiva.<br/><strong>Sviluppo.</strong> Sviluppo dell’architettura generale e di dettaglio, integrazione di meccanica, elettronica, sensori e controllo, ottimizzazione dello scambio termico e dei componenti, con lavoro dedicato su ergonomia, facilità d’uso e design.<br/><strong>Risultato.</strong> Potenza termica estratta nell’ordine di 20–25 W in un dispositivo compatto, bilanciato sul polso e sviluppato per mantenere comfort d’uso e discrezione estetica.</p>
 <div class="tags"><span>Wearable</span><span>Controllo termico</span><span>Meccatronica</span><span>Prototipazione</span></div>
 </div>
 </article>
@@ -104,7 +106,7 @@
 <div class="entry-body">
 <div class="project-index mono">P.04</div>
 <h3>Sistema autonomo per modulo DJI D-RTK in ambiente rigido</h3>
-<p>Sistema autonomo dimensionato per alimentare un modulo DJI D-RTK per un’intera giornata operativa, con gestione termica dedicata per l’impiego a basse temperature.</p>
+<p><strong>Problema.</strong> Mantenere operativo 24 ore su 24 un modulo DJI D-RTK installato in ambiente montano senza disponibilità di alimentazione di rete.<br/><strong>Contesto / vincoli.</strong> Temperature molto rigide, neve e ghiaccio, vento forte e possibili periodi di più giorni con disponibilità solare ridotta o assente.<br/><strong>Sviluppo.</strong> Dimensionamento del sistema energetico, gestione termica dell’elettronica e verifica dei carichi dovuti al vento per consentire un’installazione autonoma e non presidiata.<br/><strong>Risultato.</strong> Sistema dimensionato per operare in autonomia in ambiente montano e mantenere la continuità di alimentazione del D-RTK anche durante periodi prolungati senza apporto solare.</p>
 <div class="tags"><span>Gestione energetica</span><span>Ambienti severi</span><span>Integrazione UAV</span></div>
 </div>
 </article>
@@ -116,16 +118,16 @@
 <div class="entry-body">
 <div class="project-index mono">P.05</div>
 <h3>Riprogettazione di pinze porta utensile per braccio robotico</h3>
-<p>Riprogettazione di pinze stampate in 3D soggette a rotture ricorrenti. L’analisi dei punti di cedimento e della dinamica di carico ha guidato la modifica della geometria, eliminando il problema riscontrato nella configurazione originale.</p>
+<p><strong>Problema.</strong> Le pinze porta-utensile originali si rompevano con frequenza circa settimanale e avevano un costo di sostituzione elevato.<br/><strong>Contesto / vincoli.</strong> Braccio robotico con cicli ripetitivi di deposito utensile, piccoli disallineamenti, tolleranze dimensionali e vincoli propri della stampa 3D.<br/><strong>Sviluppo.</strong> Analisi dei punti di rottura, delle sollecitazioni e dei movimenti coinvolti; ricostruzione dei cicli e dei possibili errori di inserimento, seguita dal redesign della geometria.<br/><strong>Risultato.</strong> Pinze realizzate in resina tecnica mediante stampa 3D, meno costose delle originali e rimaste operative per mesi senza le rotture ricorrenti precedenti.</p>
 <div class="tags"><span>Analisi del guasto</span><span>Riprogettazione meccanica</span><span>Robotica</span><span>Stampa 3D</span></div>
 </div>
 </article>
 <article class="project-entry reveal">
-<div class="entry-media single"><img alt="Braccialetto termico attivo" src="assets/braccialetto-termico-1.png"/><span class="visual-label mono">CONTROLLO TERMICO INDOSSABILETTO</span></div>
+<div class="entry-media single"><img alt="Braccialetto termico attivo" src="assets/braccialetto-termico-1.png"/><span class="visual-label mono">CONTROLLO TERMICO / MINIATURIZZAZIONE</span></div>
 <div class="entry-body">
 <div class="project-index mono">P.06</div>
 <h3>Braccialetto termico attivo</h3>
-<p>Versione compatta di dispositivo indossabile per controllo termico, sviluppata lavorando sull’integrazione dei componenti, la miniaturizzazione, l’ergonomia e la gestione dei vincoli energetici e termici.</p>
+<p><strong>Problema.</strong> Ottenere un beneficio termico percepibile in un dispositivo ancora più compatto, superando la capacità di scambio limitata tipica dei piccoli wearable per il comfort personale.<br/><strong>Contesto / vincoli.</strong> Ergonomia, sudore, fisiologia della percezione termica, vasocostrizione, gestione termica in poco volume e limiti della produzione additiva.<br/><strong>Sviluppo.</strong> Sviluppo dell’architettura generale, ottimizzazione dello scambio termico e dell’elettronica, miniaturizzazione dei componenti e lavoro su ergonomia, facilità d’uso e design.<br/><strong>Risultato.</strong> Potenza termica estratta nell’ordine di 5–10 W in un dispositivo compatto, bilanciato sul polso, poco invasivo nell’uso e discreto esteticamente.</p>
 <div class="tags"><span>Wearable</span><span>Controllo termico</span><span>Integrazione di sistema</span><span>Prototipazione</span></div>
 </div>
 </article>
@@ -137,8 +139,9 @@
 <div class="entry-body">
 <div class="project-index mono">P.07</div>
 <h3>Drone per raccolta e trasporto oggetti</h3>
-<p>UAV sviluppato per raccogliere, movimentare e trasportare oggetti tramite un sistema meccanico dedicato, integrato sulla piattaforma e prototipato anche mediante additive manufacturing.</p>
-<div class="tags"><span>UAV</span><span>Stampa 3D</span><span>Meccanismi</span><span>Prototipazione</span></div>
+<p><strong>Problema.</strong> Consentire a un drone di interagire fisicamente con l’ambiente e prelevare piccoli oggetti senza richiedere la presenza di un operatore nel punto di raccolta.<br/><strong>Contesto / vincoli.</strong> Superfici irregolari come terra e asfalto, polvere, stabilità di volo, resistenza meccanica, affidabilità e vincoli della stampa 3D.<br/><strong>Sviluppo.</strong> Sviluppo dell’intero sistema, dalla scelta del principio meccanico di raccolta alla geometria per adattarsi a oggetti di forme differenti e ridurre il rischio di incastro, fino all’integrazione delle parti sulla piattaforma UAV.<br/><strong>Risultato.</strong> Drone capace di raccogliere e trasportare oggetti da differenti tipi di terreno, con buona stabilità di volo, autonomia operativa e capacità di adattarsi a forme diverse.</p>
+<div class="project-note mono">* immagine alterata per riservatezza del prodotto</div>
+<div class="tags"><span>UAV</span><span>Meccanismi</span><span>Stampa 3D</span><span>Prototipazione</span></div>
 </div>
 </article>
 <article class="project-entry reveal">
@@ -149,7 +152,8 @@
 <div class="entry-body">
 <div class="project-index mono">P.08</div>
 <h3>Concept di elica a passo variabile passivo</h3>
-<p>Sviluppo concettuale di un’elica per UAV progettata per variare passivamente la propria configurazione in funzione delle condizioni operative, senza un sistema di attuazione dedicato.</p>
+<p><strong>Problema.</strong> Portare il passo variabile su eliche di piccola scala senza introdurre servomeccanismi, peso, costo e complessità tipici delle soluzioni tradizionali.<br/><strong>Contesto / vincoli.</strong> Dimensioni ridotte, assenza di attuatori dedicati, affidabilità meccanica, bilanciamento dinamico e fattibilità costruttiva.<br/><strong>Sviluppo.</strong> Sviluppo della dinamica e della meccanica del sistema, con particolare attenzione agli squilibri in rotazione e alla sincronizzazione passiva dei movimenti.<br/><strong>Risultato.</strong> Architettura di elica a passo variabile automatico passivo. Ulteriori dettagli tecnici non sono pubblicati.</p>
+<div class="project-note mono">* immagine alterata per riservatezza del prodotto</div>
 <div class="tags"><span>UAV</span><span>Meccanismi</span><span>Passo variabile</span><span>Sviluppo concettuale</span></div>
 </div>
 </article>
@@ -161,7 +165,7 @@
 <div class="entry-body">
 <div class="project-index mono">P.09</div>
 <h3>Sistema di stoccaggio impilabile per macchinari industriali</h3>
-<p>Sistema di stoccaggio impilabile per macchinari industriali, sviluppato con verifiche FEM del comportamento strutturale a supporto del dimensionamento e dell’ottimizzazione dei componenti.</p>
+<p><strong>Problema.</strong> Mancanza di strutture modulari commerciali adatte allo stoccaggio di specifici macchinari custom prodotti dall’azienda.<br/><strong>Contesto / vincoli.</strong> Movimentazione frequente, affidabilità elevata, sicurezza sul lavoro e gestione dei carichi durante l’impilamento.<br/><strong>Sviluppo.</strong> Analisi FEM e simulazioni strutturali con fattori di sicurezza, progettazione delle lamiere, definizione dei programmi di piega e sviluppo dell’assemblaggio.<br/><strong>Risultato.</strong> Struttura di stoccaggio impilabile, facile da movimentare e dimensionata con particolare attenzione alla sicurezza in ambiente industriale.</p>
 <div class="project-note mono">* immagine alterata per riservatezza del prodotto</div>
 <div class="tags"><span>Progettazione meccanica</span><span>Analisi FEM</span><span>Macchinari industriali</span></div>
 </div>
@@ -174,19 +178,20 @@
 <div class="entry-body">
 <div class="project-index mono">P.10</div>
 <h3>Sistema di connettività Wi-Fi a lunga distanza</h3>
-<p>Sistema sviluppato per creare una rete Wi-Fi locale e collegarla a un punto remoto tramite ponte wireless a lunga distanza, estendendo la connettività Internet attraverso un terminale Starlink.</p>
+<p><strong>Problema.</strong> Fornire connettività Internet in aree remote prive di copertura durante operazioni di soccorso e poter estendere il servizio verso un secondo punto operativo distante.<br/><strong>Contesto / vincoli.</strong> Creazione di una copertura Wi-Fi locale attorno alla stazione principale e collegamento wireless verso un secondo nodo posto a circa 1–2 km, anche senza un secondo terminale Starlink.<br/><strong>Sviluppo.</strong> Definizione dei requisiti operativi e sviluppo dell’architettura hardware per distribuire localmente la connettività e trasferirla a distanza tra due stazioni.<br/><strong>Risultato.</strong> Copertura Wi-Fi stabile nell’ordine di 300–400 m attorno alla stazione e ponte wireless nell’ordine di 1–2 km verso una seconda area di copertura.</p>
 <div class="tags"><span>Networking</span><span>Wireless</span><span>Connettività remota</span></div>
 </div>
 </article>
 <article class="project-entry reveal">
 <div class="entry-media single">
-<img alt="Cerniera autolubrificata a frizione variabile per occhiali stampati in 3D" src="assets/eyewear-hinge.png"/>
+<img alt="Cerniera a frizione controllata per occhiali stampati in 3D" src="assets/eyewear-hinge.png"/>
 <span class="visual-label mono">FRIZIONE CONTROLLATA / ADDITIVE</span>
 </div>
 <div class="entry-body">
 <div class="project-index mono">P.11</div>
-<h3>Cerniera autolubrificata a frizione variabile per occhiali</h3>
-<p>Cerniera custom sviluppata per occhiali interamente stampati in 3D, con geometria studiata per ottenere frizione controllata, ritorno elastico e continuità funzionale senza componenti di lubrificazione dedicati.</p>
+<h3>Cerniera a frizione controllata per occhiali stampati in 3D</h3>
+<p><strong>Problema.</strong> Realizzare un modello di occhiali completamente custom e stampato in 3D mantenendo una qualità percepita elevata nell’apertura e chiusura delle astine.<br/><strong>Contesto / vincoli.</strong> Usura nel tempo, resistenza meccanica, ripetibilità del comportamento e limiti geometrici e produttivi della stampa 3D.<br/><strong>Sviluppo.</strong> Progettazione del sistema meccanico e del comportamento in apertura e chiusura, lavorando sulla geometria per controllare frizione, elasticità e risposta tattile.<br/><strong>Risultato.</strong> Cerniera robusta, stampabile in 3D e resistente nel tempo, con una risposta meccanica controllata e una qualità percepita coerente con il prodotto.</p>
+<div class="project-note mono">* immagine alterata per riservatezza del prodotto</div>
 <div class="tags"><span>Meccanismi</span><span>Stampa 3D</span><span>Design for Additive</span></div>
 </div>
 </article>
@@ -204,31 +209,20 @@
 <div class="entry-body">
 <div class="project-index mono">P.12</div>
 <h3>Interfaccia di controllo a lunga distanza</h3>
-<p>Interfaccia custom aggiuntiva per radiocomando DJI, sviluppata per gestire comandi dedicati a un payload personalizzato mantenendo il controllo attraverso il collegamento radio della piattaforma.</p>
+<p><strong>Problema.</strong> Gestire da terra un payload custom e ricevere informazioni dai sensori su un canale indipendente dal sistema DJI, mantenendo il collegamento a lunga distanza.<br/><strong>Contesto / vincoli.</strong> Peso ridotto, semplicità di integrazione sul radiocomando, ergonomia per il pilota e comunicazione bidirezionale con il payload.<br/><strong>Sviluppo.</strong> Sviluppo di firmware, elettronica e integrazione dell’interfaccia di controllo con il radiocomando e con il dispositivo installato sul drone.<br/><strong>Risultato.</strong> Pulsantiera aggiuntiva con display integrabile sul radiocomando, capace di inviare comandi e ricevere dati dal payload fino a circa 4 km.</p>
 <div class="tags"><span>UAV</span><span>Controllo payload</span><span>HMI</span><span>Embedded</span></div>
 </div>
 </article>
-<article class="project-entry reveal">
-<div class="entry-media single">
-<img alt="Payload e integrazioni per UAV" src="assets/payload-e-integrazioni-uav.png?v=2"/>
-<span class="visual-label mono">INTEGRAZIONE UAV / PAYLOAD CUSTOM</span>
-</div>
-<div class="entry-body">
-<div class="project-index mono">P.13</div>
-<h3>Payload e integrazioni per UAV</h3>
-<p>Sviluppo e integrazione di payload, elettronica e dispositivi custom su piattaforme UAV, considerando congiuntamente vincoli meccanici, elettrici, funzionali, di comunicazione e d’impiego.</p>
-<div class="tags"><span>UAV</span><span>Integrazione payload</span><span>Meccanica</span><span>Embedded</span></div>
-</div>
-</article>
+
 <article class="project-entry reveal">
 <div class="entry-media css-visual printer-visual">
 <div class="printer-frame"><div class="gantry"></div><div class="head h1"></div><div class="head h2"></div><div class="bed"></div><div class="part"></div></div>
 <span class="visual-label mono">PROGETTAZIONE MECCATRONICA / REALIZZAZIONE</span>
 </div>
 <div class="entry-body">
-<div class="project-index mono">P.14</div>
+<div class="project-index mono">P.13</div>
 <h3>Stampante 3D custom</h3>
-<p>Stampante 3D custom sviluppata e realizzata integrando struttura meccanica, motion control, doppio estrusore, camera riscaldata e livellamento automatico del piano.</p>
+<p><strong>Problema.</strong> Disporre di una stampante 3D economica ma ad alte prestazioni, adatta alla produzione di componenti in materiali tecnici necessari allo sviluppo del drone per raccolta e trasporto oggetti.<br/><strong>Contesto / vincoli.</strong> Rapporto costo/prestazioni, realizzazione interna e necessità di supportare lavorazioni e materiali più impegnativi rispetto a una stampante desktop standard.<br/><strong>Sviluppo.</strong> Sviluppo completo della macchina, dalla struttura e cinematica ai sistemi di estrusione, camera riscaldata, controllo e livellamento del piano.<br/><strong>Risultato.</strong> Stampante 3D custom a doppio estrusore, camera riscaldata e livellamento automatico, realizzata con un costo complessivo inferiore a 1.000 €.</p>
 <div class="tags"><span>Meccatronica</span><span>Motion control</span><span>Additive manufacturing</span><span>Progettazione di sistema</span></div>
 </div>
 </article>
@@ -240,7 +234,7 @@
 <p class="eyebrow mono">03 / IN SVILUPPO</p>
 <h2>Ricerca e sviluppo.</h2>
 </div>
-<p class="section-note">Concept e sistemi sperimentali utilizzati per esplorare architetture, principi di funzionamento e soluzioni tecniche non ancora consolidate.</p>
+<p class="section-note">Progetti in cui il risultato non è ancora consolidato: qui il focus è su ipotesi, vincoli, sperimentazione e criteri di verifica.</p>
 </div>
 <div class="project-list">
 <article class="project-entry reveal">
@@ -251,7 +245,7 @@
 <div class="entry-body">
 <div class="project-index mono">R.01</div>
 <h3>Boa autonoma per monitoraggio ambientale</h3>
-<p>Sistema autonomo in sviluppo per il monitoraggio ambientale remoto, progettato per acquisire dati da sensori e operare per periodi prolungati in ambiente marino con gestione dedicata dell’energia.</p>
+<p><strong>Problema.</strong> Realizzare una boa autonoma per il monitoraggio remoto di parametri ambientali in aree di mangrovia.<br/><strong>Contesto / vincoli.</strong> Assenza di alimentazione di rete, acqua salata, corrosione, esposizione UV, vento e possibili periodi prolungati con ridotta disponibilità solare.<br/><strong>Sviluppo.</strong> Dimensionamento del sistema energetico, gestione termica, resistenza al vento e definizione delle soluzioni per manutenzione e mitigazione della corrosione.<br/><strong>Stato.</strong> Progetto in fase di sviluppo; le verifiche riguardano autonomia, resistenza all’ambiente marino e sostenibilità della manutenzione nel lungo periodo.</p><div class="project-note mono">* progetto sviluppato in collaborazione</div>
 <div class="project-note mono">* immagine alterata per riservatezza del prodotto</div>
 <div class="status-inline mono"><span></span>IN SVILUPPO</div>
 <div class="tags"><span>Sistemi marini</span><span>Sensori</span><span>Gestione energetica</span><span>Embedded</span></div>
@@ -265,7 +259,7 @@
 <div class="entry-body">
 <div class="project-index mono">R.02</div>
 <h3>Sistema meccatronico per la riduzione delle vibrazioni</h3>
-<p>Sistema sperimentale in sviluppo per ridurre la trasmissione delle vibrazioni verso dispositivi sensibili, con particolare attenzione a centraline di volo, avionica e strumentazione.</p>
+<p><strong>Problema.</strong> Ridurre la trasmissione delle vibrazioni meccaniche verso sistemi di misura sensibili, come centraline di volo, sistemi ottici e strumentazione.<br/><strong>Contesto / vincoli.</strong> Massa minima, vibrazioni persistenti e necessità di una risposta dinamica sufficientemente rapida per non introdurre nuove perturbazioni nel sistema.<br/><strong>Sviluppo.</strong> Sviluppo sperimentale dell’architettura meccatronica e delle logiche di compensazione, con prove progressive sui principali parametri dinamici.<br/><strong>Stato.</strong> In sperimentazione. L’obiettivo è quantificare la riduzione vibratoria ottenibile e valutarne l’effetto sulla qualità delle misure.</p>
 <div class="project-note mono">* immagine alterata per riservatezza del prodotto</div>
 <div class="status-inline mono"><span></span>IN SVILUPPO</div>
 <div class="tags"><span>Vibrazioni</span><span>Meccatronica</span><span>UAV</span><span>R&amp;D</span></div>
@@ -279,7 +273,8 @@
 <div class="entry-body">
 <div class="project-index mono">R.03</div>
 <h3>Micro drone VTOL</h3>
-<p>Concept di micro UAV VTOL sviluppato lavorando sull’architettura generale, la compattezza e l’integrazione funzionale dei sottosistemi all’interno di forti vincoli geometrici.</p>
+<p><strong>Problema.</strong> Sviluppare un VTOL di piccole dimensioni, efficiente e realizzabile prevalentemente mediante stampa 3D.<br/><strong>Contesto / vincoli.</strong> Massa fortemente vincolante, limiti della produzione additiva e gestione delle dinamiche di volo in una piattaforma molto compatta.<br/><strong>Sviluppo.</strong> Sviluppo sperimentale dell’architettura, della distribuzione delle masse e dell’integrazione dei sottosistemi.<br/><strong>Stato.</strong> In sperimentazione, con verifica progressiva della fattibilità dell’architettura e del comportamento dinamico della piattaforma.</p>
+<div class="project-note mono">* immagine alterata per riservatezza del prodotto</div>
 <div class="status-inline mono"><span></span>IN SVILUPPO</div>
 <div class="tags"><span>UAV</span><span>VTOL</span><span>Sviluppo concettuale</span><span>Architettura di sistema</span></div>
 </div>
@@ -292,17 +287,18 @@
 <div class="entry-body">
 <div class="project-index mono">R.04</div>
 <h3>Banco prova per studio di camera di combustione</h3>
-<p>Banco prova sperimentale sviluppato per riprodurre in condizioni controllate alcuni parametri e fenomeni rilevanti di una camera di combustione, a supporto dello studio di un sistema di propulsione ibrido-getto per UAV.</p>
+<p><strong>Problema.</strong> Esplorare una soluzione di propulsione di piccola scala con elevata densità energetica, maggiore efficienza e costi compatibili con applicazioni UAV.<br/><strong>Contesto / vincoli.</strong> Massa, dinamica dei componenti rotanti, gestione energetica, aerodinamica della spinta, sicurezza, affidabilità e temperature elevate.<br/><strong>Sviluppo.</strong> Sviluppo di un banco prova per studiare in modo controllato il sistema di ignizione e il mantenimento della fiamma nel combustore, misurandone il comportamento prima di procedere con l’integrazione propulsiva.<br/><strong>Stato.</strong> I primi risultati sperimentali indicano la praticabilità dell’approccio alternativo alla combustione; il sistema è ancora in sviluppo e caratterizzazione.</p>
+<div class="project-note mono">* immagine alterata per riservatezza del prodotto</div>
 <div class="status-inline mono"><span></span>IN SVILUPPO</div>
-<div class="tags"><span>Propulsione</span><span>Banco prova</span><span>R&amp;D sperimentale</span></div>
+<div class="tags"><span>Propulsione</span><span>Banco prova</span><span>Sperimentazione</span></div>
 </div>
 </article>
 </div>
 </section>
 <section class="section contact-section" id="contact">
 <p class="eyebrow mono">04 / CONTATTI</p>
-<h2>Sviluppo prodotto,<br/>integrazione e verifica.</h2>
-<p>Disponibile per consulenze e collaborazioni su fattibilità tecnica, sviluppo di prodotti e piccoli sistemi, prototipazione, integrazione multidisciplinare e verifica sperimentale.</p>
+<h2>Quando il problema<br/>attraversa più discipline.</h2>
+<p>Disponibile per collaborazioni su prodotti, prototipi e piccoli sistemi che richiedono integrazione tra sottosistemi, tecnologie e vincoli differenti.</p>
 <div class="contact-actions">
 <a class="button primary" href="mailto:mb3dservice@gmail.com">Parliamone</a>
 <a class="button ghost" href="https://www.linkedin.com/in/matteo-babetto/" rel="noopener" target="_blank">LinkedIn</a>

@@ -37,6 +37,18 @@ img { display: block; max-width: 100%; }
 .site-header {
   width: min(calc(100% - 40px), var(--max)); height: 82px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; background: rgba(10,11,12,.82); backdrop-filter: blur(16px);
 }
+.site-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: rgba(10,11,12,.82);
+  border-bottom: 1px solid var(--line);
+  z-index: -1;
+}
 .brand { display: inline-flex; align-items: center; gap: 13px; font-weight: 650; letter-spacing: .03em; font-size: 14px; }
 .brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid var(--line-strong); font: 500 12px/1 "IBM Plex Mono", monospace; position: relative; }
 .brand-mark::after { content: ""; width: 6px; height: 6px; background: var(--accent); position: absolute; right: -3px; bottom: -3px; }
@@ -44,7 +56,7 @@ img { display: block; max-width: 100%; }
 .nav a:hover { color: var(--text); }
 .hero { min-height: calc(100vh - 82px); display: flex; flex-direction: column; justify-content: center; padding-top: 80px; padding-bottom: 80px; }
 .hero-kicker, .eyebrow { color: var(--accent); letter-spacing: .13em; font-size: 11px; font-weight: 500; }
-.hero h1 { font-size: clamp(54px, 8.6vw, 125px); line-height: .93; letter-spacing: -.065em; max-width: 1120px; margin: 22px 0 32px; font-weight: 600; }
+.hero h1 { font-size: clamp(46px, 7.3vw, 106px); line-height: .93; letter-spacing: -.065em; max-width: 1120px; margin: 22px 0 32px; font-weight: 600; }
 .hero h1 span { display: block; color: var(--muted); }
 .hero-copy { max-width: 700px; color: #b7bdc1; font-size: clamp(18px, 2vw, 23px); line-height: 1.55; margin: 0; }
 .hero-actions, .contact-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 38px; }
@@ -52,8 +64,11 @@ img { display: block; max-width: 100%; }
 .button:hover { transform: translateY(-2px); }
 .button.primary { background: var(--accent); border-color: var(--accent); color: #090a0a; }
 .button.ghost:hover { background: rgba(255,255,255,.05); }
-.capabilities { margin-top: 84px; display: flex; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 18px; gap: 10px 28px; color: var(--muted); font: 400 11px/1.6 "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .08em; }
+.capabilities { display: none; /* margin-top: 84px; display: flex; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 18px; gap: 10px 28px; color: var(--muted); font: 400 11px/1.6 "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .08em; */ }
 .intro-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 10vw; border-top: 1px solid var(--line); }
+#projects {
+  border-top: 1px solid var(--line);
+}
 h2 { font-size: clamp(40px, 5vw, 72px); line-height: 1; letter-spacing: -.05em; margin: 18px 0 0; font-weight: 600; }
 .intro-copy { align-self: end; max-width: 700px; }
 .intro-copy p, .section-note, .contact-section > p { color: #aeb4b8; font-size: 17px; line-height: 1.7; }
@@ -119,7 +134,7 @@ h2 { font-size: clamp(40px, 5vw, 72px); line-height: 1; letter-spacing: -.05em; 
 .printer-visual .part{ position:absolute; width:60px; height:32px; border-left:1px solid rgba(216,255,62,.7); border-right:1px solid rgba(216,255,62,.7); border-top:1px solid rgba(216,255,62,.7); left:61px; bottom:42px; }
 .rd-section { border-top: 1px solid var(--line); }
 .contact-section { border-top: 1px solid var(--line); padding-top: 120px; padding-bottom: 120px; }
-.contact-section h2 { max-width: 920px; font-size: clamp(48px, 7vw, 100px); }
+.contact-section h2 { max-width: 920px; font-size: clamp(41px, 6vw, 85px); }
 .contact-section > p { max-width: 700px; margin-top: 28px; }
 .footer { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; min-height: 90px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; color: var(--muted); font-size: 11px; }
 .footer .mono { font-size: 9px; letter-spacing: .1em; }
