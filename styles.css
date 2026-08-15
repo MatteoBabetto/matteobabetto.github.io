@@ -56,7 +56,7 @@ img { display: block; max-width: 100%; }
 .nav a:hover { color: var(--text); }
 .hero { min-height: calc(100vh - 82px); display: flex; flex-direction: column; justify-content: center; padding-top: 80px; padding-bottom: 80px; }
 .hero-kicker, .eyebrow { color: var(--accent); letter-spacing: .13em; font-size: 11px; font-weight: 500; }
-.hero h1 { font-size: clamp(46px, 7.3vw, 100px); line-height: .93; letter-spacing: -.065em; max-width: 1120px; margin: 22px 0 32px; font-weight: 600; }
+.hero h1 { font-size: clamp(46px, 7.3vw, 106px); line-height: .93; letter-spacing: -.065em; max-width: 1120px; margin: 22px 0 32px; font-weight: 600; }
 .hero h1 span { display: block; color: var(--muted); }
 .hero-copy { max-width: 700px; color: #b7bdc1; font-size: clamp(18px, 2vw, 23px); line-height: 1.55; margin: 0; }
 .hero-actions, .contact-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 38px; }
@@ -156,7 +156,7 @@ h2 { font-size: clamp(40px, 5vw, 72px); line-height: 1; letter-spacing: -.05em; 
 @media (max-width: 560px) {
   .section, .site-header, .footer { width: min(calc(100% - 28px), var(--max)); }
   .brand-name { font-size: 12px; }
-  .hero h1 { font-size: clamp(48px, 15vw, 76px); }
+  .hero h1 { font-size: clamp(40px, 11.5vw, 62px); }
   .entry-body { padding-left: 20px; padding-right: 20px; }
   .entry-media { min-height: 250px; }
   .controller-visual .remote-body { transform: scale(.85); }
