@@ -73,8 +73,8 @@ h2 { font-size: clamp(40px, 5vw, 72px); line-height: 1; letter-spacing: -.05em; 
 .intro-copy { align-self: end; max-width: 700px; }
 .intro-copy p, .section-note, .contact-section > p { color: #aeb4b8; font-size: 17px; line-height: 1.7; }
 .intro-copy strong { color: var(--text); font-weight: 600; }
-.section-heading { display: flex; align-items: end; justify-content: space-between; gap: 60px; margin-bottom: 42px; }
-.section-note { max-width: 430px; margin: 0 0 4px; font-size: 14px; }
+.section-heading {   display: grid; grid-template-columns: .8fr 1.2fr; gap: 10vw; align-items: start; margin-bottom: 42px; }
+.section-note {   max-width: 700px; margin: 0; font-size: 17px; line-height: 1.7; }
 .project-list { display: flex; flex-direction: column; gap: 28px; }
 .project-entry { border: 1px solid var(--line); background: rgba(255,255,255,.015); overflow: hidden; }
 .project-entry:hover { background: rgba(255,255,255,.025); }
