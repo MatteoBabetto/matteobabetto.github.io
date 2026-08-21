@@ -291,3 +291,38 @@ h2 { font-size: clamp(40px, 5vw, 72px); line-height: 1; letter-spacing: -.05em; 
   .project-entry { grid-template-columns: 1fr; }
   .entry-media, .entry-media.css-visual { aspect-ratio: 1586 / 992; }
 }
+
+/* === profilo: continuazione visiva della hero === */
+.profile-section {
+  grid-template-columns: minmax(150px, .42fr) minmax(0, 1.58fr);
+  gap: 7vw;
+  align-items: start;
+}
+
+.profile-heading {
+  padding-top: 2px;
+}
+
+.profile-copy {
+  align-self: start;
+  max-width: 790px;
+}
+
+.profile-copy p {
+  margin: 0 0 22px;
+}
+
+.profile-copy p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .profile-section {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .profile-copy {
+    max-width: 700px;
+  }
+}
